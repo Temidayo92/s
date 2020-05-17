@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(249, 249, 249);
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: white !important;
+    border: none;
+    border-radius: 0;
+}
+.nav-icons {
+    right: 20px;
+    width: auto;
+}
+
+.whole-body-content {
+    display: flex;
+}
+
+.btn-ppty {
+    background: transparent;
+    border: none;
+    box-shadow: none !important;
+    color: black;
+}
+
+div .col-md-9 .nav-item i {
+    color: grey;
+    font-size: 20px;
+}
+
+.col-md-4 {
+    align-items: center;
+}
+
+/* ---------------------------
+    SIDEBAR STYLE STARTS HERE
+   --------------------------- */
+.main-wrapper{
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 240px;
+    max-width: 240px;
+    background: white;
+    color: inherit;
+    transition: all 0.3s;
+    max-height: 100vh;
+    position: sticky;
+    top: 70px;
+    left: 0;
+    overflow-y: auto;
+}
+
+#sidebar ul li a {
+    text-align: left;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background: #f1f1f1;
+}
+
+#sidebar ul li a i {
+    margin-right: 10px;
+}
+
+/* active properties */
+#sidebar.active {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100vh;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.video-page.active {
+    display: none;
+}
+
+#sidebar.active hr,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active .minibar-hide,
+#sidebar.active .CTAs {
+    display: none;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: red;
+}
+
+.wrapper #sidebar ul li a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+}
+
+#sidebar ul div {
+    padding: 10px;
+}
+
+#sidebar ul div a {
+    text-decoration: none;
+    color: inherit;
+    padding-right: 5px;
+    font-size: 0.9rem;
+}
+
+footer {
+    padding-left: 10px;
+}
+/* ---------------------------
+    SIDEBAR STYLE ENDS HERE
+------------------------------ */
+
+/* .wrapper #sidebar ul li .fas-home {
+    color: red;
+} */
+
+.dropdown .dropdown-menu {
+    width: 220px;
+    border-radius: 0;
+    line-height: 2rem;
+}
+
+.menu-search-box {
+    padding-right: 250px;
+    border: solid 1px black;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+form .btn {
+    border-radius: 0;
+    background-color: #f8f8f8
+}
+
+.video-thumbnails {
+    padding: 50px;
+}
+
